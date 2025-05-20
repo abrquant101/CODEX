@@ -1,0 +1,12 @@
+order_id,action,quantity,capital,instrument,price,order_type,occurred,signal,interval,workspace,modo,status
+b9c2369e-a55d-459d-9f22-54330ba77ece,Buy,10,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set1,Largo,Pending
+333ab355-a856-4f1e-a94c-1fac00bb087e,Sell,1,20000000,NQ,21614.00,Stop Market,12/09/24 15:33:31,Trail_Lng,1 min.,Test-NQ-Set3,Corto,Pending
+13b237d8-cff0-4636-b610-fb86d05e20ed,Sell,1,20000000,NQ,21614.00,Stop Market,12/09/24 15:33:31,Trail_Lng,1 min.,Test-NQ-Set5,Largo,Pending
+5f4e4b25-171e-41d2-9cdc-4262a1d11468,Buy,1,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set2,Corto,Pending
+ef449c32-5e51-4a7a-afcb-af04aade757d,Sell,1,20000000,NQ,21614.00,Stop Market,12/09/24 15:33:31,Trail_Lng,1 min.,Test-NQ-Set1,Largo,Pending
+bb0e8a56-c4c3-4447-be11-0ff1598e5b75,Buy,1,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set3,Corto,Pending
+ba6616c7-36e6-490b-873e-f0cd0785e265,Buy,1,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set5,Largo,Pending
+c8c37542-e763-45d2-b2be-0070fcd3c4e5,Sell,1,20000000,NQ,21614.00,Stop Market,12/09/24 15:33:31,Trail_Lng,1 min.,Test-NQ-Set4,Largo,Pending
+f053b9fc-6361-4de7-a6c9-ce92db963d66,Buy,1,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set4,Largo,Pending
+c726dfc7-1f1a-4450-aab6-c96ce9ba06d5,Buy,1,20000000,NQ,21636.25,Stop Market,12/09/24 15:32:06,Buy,1 min.,Test-NQ-Set1,Largo,Pending
+3a13a022-d8cb-4b1c-84e9-f514de07a1d1,Sell,1,20000000,NQ,21614.00,Stop Market,12/09/24 15:33:31,Trail_Lng,1 min.,Test-NQ-Set2,Corto,Pending

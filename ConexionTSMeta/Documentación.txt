@@ -1,0 +1,14 @@
+SISTEMAS OPERANDO
+Corto
+10-Operativa-AS1
+10-Operativa-AS2
+10-Operativa-AS3
+10-Operativa-AS4
+10-Operativa-AS5
+Largo
+
+
+RUTAS
+ORDENADOR ALBERTO
+C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files
+C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files
