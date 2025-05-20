@@ -1,4 +1,5 @@
 import math
+import os
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import time
@@ -12,6 +13,7 @@ from time import sleep
 from datetime import timezone, timedelta
 
 from api.dwx_client import dwx_client
+from config import load_account_config
 
 ######################################
 # Función de cálculo de Money Management
@@ -107,7 +109,12 @@ workspace_modes = {}
 running = False
 thread_loop = None
 
-all_workspaces_dict = {"10-Operativa-AS1" : "Corto", "10-Operativa-AS2": "Corto", "10-Operativa-AS3": "Corto", "10-Operativa-AS4" : "Corto", "10-Operativa-AS5": "Corto"}
+#all_workspaces_dict = {"10-Operativa-AS1" : "Corto", "10-Operativa-AS2": "Corto", "10-Operativa-AS3": "Corto", "10-Operativa-AS4" : "Corto", "10-Operativa-AS5": "Corto"}
+# Load account specific configuration
+account_cfg = load_account_config(os.environ.get('TS_ACCOUNT'))
+
+# Mapping of workspace name to default mode
+all_workspaces_dict = account_cfg.get('workspaces', {})
 AUTOMATIC_RESTART_TIME = "23:59" #OJO!! SI OPERAMOS EN SERVIDOR CON HORA DE NUEVA YORK: 17:15
 last_restart_date = None
 
@@ -708,13 +715,15 @@ platform_combo.pack(side='left', padx=5)
 tk.Label(platform_frame, text="Ruta MT4:").pack(side='left', padx=5)
 entry_mt4_path = tk.Entry(platform_frame, width=50)
 #entry_mt4_path.insert(0, r"C:\Path\To\MT4\MQL4\Files")
-entry_mt4_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files")
+#entry_mt4_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files")
+entry_mt4_path.insert(0, account_cfg.get('mt4_path', ''))
 
 entry_mt4_path.pack(side='left', padx=5)
 
 tk.Label(platform_frame, text="Ruta MT5:").pack(side='left', padx=5)
 entry_mt5_path = tk.Entry(platform_frame, width=50)
-entry_mt5_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files")
+#entry_mt5_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files")
+entry_mt5_path.insert(0, account_cfg.get('mt5_path', ''))
 entry_mt5_path.pack(side='left', padx=5)
 
 frame_buttons = tk.Frame(root)
