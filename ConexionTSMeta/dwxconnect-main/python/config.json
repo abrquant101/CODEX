@@ -1,0 +1,21 @@
+diff --git a//dev/null b/ConexionTSMeta/dwxconnect-main/python/config.json
+index 0000000..a27e2a0 100644
+--- a//dev/null
++++ b/ConexionTSMeta/dwxconnect-main/python/config.json
+@@ -0,0 +1,16 @@
++{
++    "default_account": "alberto",
++    "accounts": {
++        "alberto": {
++            "mt4_path": "C:\\Users\\Alberto\\AppData\\Roaming\\MetaQuotes\\Terminal\\F0DEBE9BA569B53E62B00FE1DE068813\\MQL4\\Files",
++            "mt5_path": "C:\\Users\\Alberto\\AppData\\Roaming\\MetaQuotes\\Terminal\\6C3C6A11D1C3791DD4DBF45421BF8028\\MQL5\\Files",
++            "workspaces": {
++                "10-Operativa-AS1": "Corto",
++                "10-Operativa-AS2": "Corto",
++                "10-Operativa-AS3": "Corto",
++                "10-Operativa-AS4": "Corto",
++                "10-Operativa-AS5": "Corto"
++            }
++        }
++    }
++}
