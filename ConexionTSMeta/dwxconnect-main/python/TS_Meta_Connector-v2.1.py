@@ -100,8 +100,8 @@ class tick_processor():
 # Variables globales
 ######################################
 IMAP_SERVER = 'imap.gmail.com'
-EMAIL_ACCOUNT = 'notificacionesdarwinsyo@gmail.com'
-PASSWORD = 'ktxzeqagsklsxolp'
+EMAIL_ACCOUNT = 'recepcionordenes@gmail.com'
+PASSWORD = 'password'
 
 workspace_modes = {}
 running = False
