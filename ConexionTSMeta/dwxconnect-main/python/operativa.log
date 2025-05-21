@@ -1,0 +1,129 @@
+[2025-02-03 09:48:48,546] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:48:48,547] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 59.0, 'instrument': 'NQ', 'price': '21716.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set3'}
+[2025-02-03 09:48:48,740] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:48:48,740] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21694.50', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 09:48:48,934] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:48:48,935] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 56.0, 'instrument': 'NQ', 'price': '21708.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 09:48:49,124] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:48:49,124] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21689.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set5'}
+[2025-02-03 09:48:49,319] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:48:49,320] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2759.4', 'order_type': 'Stop Market', 'occurred': '01/28/25 15:32:01', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:48:49,522] [INFO] Asunto del email: TradeStation - Test Message
+[2025-02-03 09:48:49,522] [INFO] Email no es una notificación de orden válida.
+[2025-02-03 09:48:49,864] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:48:49,864] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 1.0, 'instrument': 'GC', 'price': 'Market', 'order_type': '', 'occurred': '01/31/25 08:03:59', 'signal': 'Sell', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET2'}
+[2025-02-03 09:48:50,161] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:48:50,162] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2848.3', 'order_type': 'Stop Market', 'occurred': '01/31/25 08:15:52', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:48:50,456] [INFO] Asunto del email: TradeStation - Strategy Filled Order for QQQ
+[2025-02-03 09:48:50,457] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 09:48:50,750] [INFO] Asunto del email: TradeStation - Strategy Filled Order for SPY
+[2025-02-03 09:48:50,751] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 09:48:51,046] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:48:51,047] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2819.3', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:24:02', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:48:51,340] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:48:51,340] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2822.7', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:55:14', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:48:51,341] [INFO] Nuevos workspaces agregados desde emails.
+[2025-02-03 09:50:20,397] [INFO] Operativa no estaba en marcha.
+[2025-02-03 09:56:02,479] [INFO] Información de la cuenta: {'name': 'Sersan Sistemas, SL', 'number': -1294893834, 'currency': 'USD', 'leverage': 200, 'free_margin': 1001206.95, 'balance': 1001774.08, 'equity': 1001758.72}
+[2025-02-03 09:56:02,481] [INFO] Operativa iniciada. Escuchando nuevos correos.
+[2025-02-03 09:56:02,488] [INFO] Iniciando ciclo de lectura de emails.
+[2025-02-03 09:56:02,501] [INFO] INFO | Successfully subscribed to: EURUSD
+[2025-02-03 09:56:16,230] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:56:16,231] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 59.0, 'instrument': 'NQ', 'price': '21716.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set3'}
+[2025-02-03 09:56:16,432] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:56:16,432] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21694.50', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 09:56:16,633] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:56:16,634] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 56.0, 'instrument': 'NQ', 'price': '21708.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 09:56:16,835] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 09:56:16,835] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21689.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set5'}
+[2025-02-03 09:56:17,038] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:56:17,039] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2759.4', 'order_type': 'Stop Market', 'occurred': '01/28/25 15:32:01', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:56:17,270] [INFO] Asunto del email: TradeStation - Test Message
+[2025-02-03 09:56:17,271] [INFO] Email no es una notificación de orden válida.
+[2025-02-03 09:56:17,547] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:56:17,548] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 1.0, 'instrument': 'GC', 'price': 'Market', 'order_type': '', 'occurred': '01/31/25 08:03:59', 'signal': 'Sell', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET2'}
+[2025-02-03 09:56:17,754] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:56:17,754] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2848.3', 'order_type': 'Stop Market', 'occurred': '01/31/25 08:15:52', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:56:17,959] [INFO] Asunto del email: TradeStation - Strategy Filled Order for QQQ
+[2025-02-03 09:56:17,959] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 09:56:18,203] [INFO] Asunto del email: TradeStation - Strategy Filled Order for SPY
+[2025-02-03 09:56:18,203] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 09:56:18,435] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:56:18,436] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2819.3', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:24:02', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:56:18,644] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 09:56:18,644] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2822.7', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:55:14', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 09:56:18,645] [INFO] Nuevos workspaces agregados desde emails.
+[2025-02-03 09:56:30,061] [DEBUG] Cuenta operando en USD
+[2025-02-03 09:56:30,061] [DEBUG] Lotes sin redondear: 0.50096448, Lotes redondeados: 0.5
+[2025-02-03 09:56:30,061] [INFO] [MT5] Abrir BUY 0.5 NDX para 10-Server_Nasdaq_Set3
+[2025-02-03 09:56:30,062] [INFO] Sincronizado Largo en 10-Server_Nasdaq_Set3 con instrumento NQ.
+[2025-02-03 09:56:30,103] [INFO] INFO | Successfully sent order: NDX, buy, 0.50, 21114.2
+[2025-02-03 09:56:30,104] [INFO] Evento de orden. Órdenes abiertas: 2
+[2025-02-03 09:56:41,401] [INFO] Operativa no estaba en marcha.
+[2025-02-03 10:00:19,117] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 10:00:19,118] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 59.0, 'instrument': 'NQ', 'price': '21716.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set3'}
+[2025-02-03 10:00:19,306] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 10:00:19,306] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21694.50', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 10:00:19,485] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 10:00:19,486] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 56.0, 'instrument': 'NQ', 'price': '21708.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 10:00:19,666] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 10:00:19,667] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21689.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set5'}
+[2025-02-03 10:00:19,847] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 10:00:19,847] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2759.4', 'order_type': 'Stop Market', 'occurred': '01/28/25 15:32:01', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 10:00:20,027] [INFO] Asunto del email: TradeStation - Test Message
+[2025-02-03 10:00:20,029] [INFO] Email no es una notificación de orden válida.
+[2025-02-03 10:00:20,209] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 10:00:20,209] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 1.0, 'instrument': 'GC', 'price': 'Market', 'order_type': '', 'occurred': '01/31/25 08:03:59', 'signal': 'Sell', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET2'}
+[2025-02-03 10:00:20,392] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 10:00:20,392] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2848.3', 'order_type': 'Stop Market', 'occurred': '01/31/25 08:15:52', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 10:00:20,572] [INFO] Asunto del email: TradeStation - Strategy Filled Order for QQQ
+[2025-02-03 10:00:20,573] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 10:00:20,754] [INFO] Asunto del email: TradeStation - Strategy Filled Order for SPY
+[2025-02-03 10:00:20,754] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 10:00:20,942] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 10:00:20,942] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2819.3', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:24:02', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 10:00:21,126] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 10:00:21,126] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2822.7', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:55:14', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 10:00:21,127] [INFO] Nuevos workspaces agregados desde emails.
+[2025-02-03 10:01:06,620] [INFO] Información de la cuenta: {'name': 'Sersan Sistemas, SL', 'number': -1294893834, 'currency': 'USD', 'leverage': 200, 'free_margin': 996065.16, 'balance': 1001772.7, 'equity': 1001895.58}
+[2025-02-03 10:01:06,622] [INFO] Operativa iniciada. Escuchando nuevos correos.
+[2025-02-03 10:01:06,629] [INFO] Iniciando ciclo de lectura de emails.
+[2025-02-03 10:01:06,660] [INFO] INFO | Successfully subscribed to: EURUSD
+[2025-02-03 10:01:14,977] [DEBUG] Cuenta operando en USD
+[2025-02-03 10:01:14,977] [DEBUG] Lotes sin redondear: 0.6010953840000001, Lotes redondeados: 0.6
+[2025-02-03 10:01:14,977] [INFO] [MT5] Abrir BUY 0.6 NDX para 10-Server_Nasdaq_Set4
+[2025-02-03 10:01:14,978] [INFO] Sincronizado Largo en 10-Server_Nasdaq_Set4 con instrumento NQ.
+[2025-02-03 10:01:15,027] [INFO] INFO | Successfully sent order: NDX, buy, 0.60, 21095.6
+[2025-02-03 10:01:15,028] [INFO] Evento de orden. Órdenes abiertas: 3
+[2025-02-03 10:01:35,137] [INFO] Operativa detenida.
+[2025-02-03 10:01:42,311] [INFO] Información de la cuenta: {'name': 'Sersan Sistemas, SL', 'number': -1294893834, 'currency': 'USD', 'leverage': 200, 'free_margin': 989707.79, 'balance': 1001771.05, 'equity': 1001866.89}
+[2025-02-03 10:01:42,313] [INFO] Operativa iniciada. Escuchando nuevos correos.
+[2025-02-03 10:01:42,317] [INFO] Iniciando ciclo de lectura de emails.
+[2025-02-03 10:01:42,354] [INFO] INFO | Successfully subscribed to: EURUSD
+[2025-02-03 10:01:42,354] [INFO] INFO | Successfully subscribed to: EURUSD
+[2025-02-03 12:13:59,245] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 12:13:59,245] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 59.0, 'instrument': 'NQ', 'price': '21716.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set3'}
+[2025-02-03 12:13:59,437] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 12:13:59,437] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21694.50', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 12:13:59,732] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 12:13:59,732] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 56.0, 'instrument': 'NQ', 'price': '21708.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set4'}
+[2025-02-03 12:13:59,935] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @NQ
+[2025-02-03 12:13:59,935] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 41.0, 'instrument': 'NQ', 'price': '21689.25', 'order_type': 'Stop Market', 'occurred': '01/27/25 15:29:59', 'signal': 'Short', 'interval': '500 min.', 'workspace': '10-Server_Nasdaq_Set5'}
+[2025-02-03 12:14:00,182] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 12:14:00,183] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2759.4', 'order_type': 'Stop Market', 'occurred': '01/28/25 15:32:01', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 12:14:00,365] [INFO] Asunto del email: TradeStation - Test Message
+[2025-02-03 12:14:00,365] [INFO] Email no es una notificación de orden válida.
+[2025-02-03 12:14:00,546] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 12:14:00,548] [INFO] Orden extraída: {'action': 'Sell', 'quantity': 1.0, 'instrument': 'GC', 'price': 'Market', 'order_type': '', 'occurred': '01/31/25 08:03:59', 'signal': 'Sell', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET2'}
+[2025-02-03 12:14:00,736] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 12:14:00,737] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2848.3', 'order_type': 'Stop Market', 'occurred': '01/31/25 08:15:52', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 12:14:00,918] [INFO] Asunto del email: TradeStation - Strategy Filled Order for QQQ
+[2025-02-03 12:14:00,919] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 12:14:01,117] [INFO] Asunto del email: TradeStation - Strategy Filled Order for SPY
+[2025-02-03 12:14:01,117] [WARNING] No se pudieron extraer todos los datos de la orden
+[2025-02-03 12:14:01,328] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 12:14:01,328] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2819.3', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:24:02', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 12:14:01,801] [INFO] Asunto del email: TradeStation - Strategy Filled Order for @GC
+[2025-02-03 12:14:01,801] [INFO] Orden extraída: {'action': 'Buy', 'quantity': 1.0, 'instrument': 'GC', 'price': '2822.7', 'order_type': 'Stop Market', 'occurred': '02/03/25 08:55:14', 'signal': 'Buy', 'interval': '28 min.', 'workspace': '10-Server_Gold_NH_SET1'}
+[2025-02-03 12:14:01,803] [INFO] No se encontraron nuevos workspaces.
+[2025-02-03 13:26:22,094] [INFO] Operativa detenida.
