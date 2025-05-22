@@ -1,8 +1,5 @@
 import math
-<<<<<<< HEAD
-=======
 import os
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import time
@@ -16,10 +13,7 @@ from time import sleep
 from datetime import timezone, timedelta
 
 from api.dwx_client import dwx_client
-<<<<<<< HEAD
-=======
 from config import load_account_config
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 
 ######################################
 # Función de cálculo de Money Management
@@ -108,21 +102,12 @@ class tick_processor():
 # Variables globales
 ######################################
 IMAP_SERVER = 'imap.gmail.com'
-<<<<<<< HEAD
-EMAIL_ACCOUNT = 'cuentareceptoraordenes@gmail.com'
-=======
 EMAIL_ACCOUNT = 'recepcionordenes@gmail.com'
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 PASSWORD = 'password'
 
 workspace_modes = {}
 running = False
 thread_loop = None
-<<<<<<< HEAD
-#all_workspaces = []
-#all_workspaces = ["10-TEST_NQ_Set1L","10-TEST_NQ_Set2L","10-TEST_NQ_Set3L","10-TEST_NQ_Set4L","10-TEST_NQ_Set5L","10-TEST_NQ_Set1C","10-TEST_NQ_Set2C","10-TEST_NQ_Set3C","10-TEST_NQ_Set4C","10-TEST_NQ_Set5C","10-TEST_GC_Set1L","10-TEST_GC_Set1C","10-TEST_GC_Set2C","10-TEST_GC_Set4L","10-TEST_GC_Set4C","10-TEST_GC_Set5L","10-TEST_GC_SetA2L","10-TEST_GC_SetA2C"]
-all_workspaces = ["10-Operativa-AS1", "10-Operativa-AS2", "10-Operativa-AS3", "10-Operativa-AS4", "10-Operativa-AS5"]
-=======
 
 # Load account specific configuration
 account_cfg = load_account_config(os.environ.get('TS_ACCOUNT'))
@@ -131,7 +116,6 @@ account_cfg = load_account_config(os.environ.get('TS_ACCOUNT'))
 #all_workspaces = ["10-TEST_NQ_Set1L","10-TEST_NQ_Set2L","10-TEST_NQ_Set3L","10-TEST_NQ_Set4L","10-TEST_NQ_Set5L","10-TEST_NQ_Set1C","10-TEST_NQ_Set2C","10-TEST_NQ_Set3C","10-TEST_NQ_Set4C","10-TEST_NQ_Set5C","10-TEST_GC_Set1L","10-TEST_GC_Set1C","10-TEST_GC_Set2C","10-TEST_GC_Set4L","10-TEST_GC_Set4C","10-TEST_GC_Set5L","10-TEST_GC_SetA2L","10-TEST_GC_SetA2C"]
 #all_workspaces = ["10-Operativa-AS1", "10-Operativa-AS2", "10-Operativa-AS3", "10-Operativa-AS4", "10-Operativa-AS5"]
 all_workspaces = list(account_cfg.get('workspaces', {}).keys())
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 
 AUTOMATIC_RESTART_TIME = "23:59"
 last_restart_date = None
@@ -708,23 +692,15 @@ platform_combo.pack(side='left', padx=5)
 tk.Label(platform_frame, text="Ruta MT4:").pack(side='left', padx=5)
 entry_mt4_path = tk.Entry(platform_frame, width=50)
 #entry_mt4_path.insert(0, r"C:\Path\To\MT4\MQL4\Files")
-<<<<<<< HEAD
-entry_mt4_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files")
-=======
 #entry_mt4_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files")
 entry_mt4_path.insert(0, account_cfg.get('mt4_path', ''))
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 
 entry_mt4_path.pack(side='left', padx=5)
 
 tk.Label(platform_frame, text="Ruta MT5:").pack(side='left', padx=5)
 entry_mt5_path = tk.Entry(platform_frame, width=50)
-<<<<<<< HEAD
-entry_mt5_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files")
-=======
 #entry_mt5_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files")
 entry_mt5_path.insert(0, account_cfg.get('mt5_path', ''))
->>>>>>> 7d709c099e307ef42f68df025c33187e9dfe813b
 entry_mt5_path.pack(side='left', padx=5)
 
 frame_buttons = tk.Frame(root)
