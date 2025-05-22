@@ -691,15 +691,11 @@ platform_combo.pack(side='left', padx=5)
 
 tk.Label(platform_frame, text="Ruta MT4:").pack(side='left', padx=5)
 entry_mt4_path = tk.Entry(platform_frame, width=50)
-#entry_mt4_path.insert(0, r"C:\Path\To\MT4\MQL4\Files")
-#entry_mt4_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\F0DEBE9BA569B53E62B00FE1DE068813\MQL4\Files")
 entry_mt4_path.insert(0, account_cfg.get('mt4_path', ''))
-
 entry_mt4_path.pack(side='left', padx=5)
 
 tk.Label(platform_frame, text="Ruta MT5:").pack(side='left', padx=5)
 entry_mt5_path = tk.Entry(platform_frame, width=50)
-#entry_mt5_path.insert(0, r"C:\Users\Alberto\AppData\Roaming\MetaQuotes\Terminal\6C3C6A11D1C3791DD4DBF45421BF8028\MQL5\Files")
 entry_mt5_path.insert(0, account_cfg.get('mt5_path', ''))
 entry_mt5_path.pack(side='left', padx=5)
 
